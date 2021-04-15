@@ -1,64 +1,9 @@
 <center> <h1>0x02. AirBnB clone - MySQL :house: </h1> </center>
 
-In this repository you will find version 2 of the Airbnb project, you will find part of the fronEnd and the static part of the page.
-but this time we focus on the BackEnd, the use of SqlAlchemy, the creation of table type objects and user access.
+In this repository you will find version 2 of the Airbnb project, you will find part of the frontend, the static part of the page.
+the BackEnd with SqlAlchemy. This part is focused on deploy.
 
 ![Hbnb](https://github.com/mauriciosierrac/AirBnB_clone/blob/master/assets/airbnb.png)
-
----
-
-## Resources
-
-Read or watch:
-
-* cmd module
-* packages concept page
-* unittest module
-* args/kwargs
-* SQLAlchemy tutorial
-* How To Create a New User and Grant Permissions in MySQL
-* Python3 and environment variables
-* SQLAlchemy
-* MySQL 5.7 SQL Statement Syntax
-* AirBnB clone - ORM
-
-## Learning Objetives :bulb:
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
-
-## General
-* What is Unit testing and how to implement it in a large project
-* What is *args and how to use it
-* What is **kwargs and how to use it
-* How to handle named arguments in a function
-* How to create a MySQL database
-* How to create a MySQL user and grant it privileges
-* What ORM means
-* How to map a Python Class to a MySQL table
-* How to handle 2 different storage engines with the same codebase
-* How to use environment variables
----
-
-<center><h3>Repository Contents by Project Task</h3> </center>
-
-### [0. Fork me if you can! ](./)
-
-### [1. Bug free! ](./)
-
-### [2. Console improvements ](./)
-
-### [3. MySQL setup develpment ](./)
-
-### [4. MySQL setup test ](./)
-
-### [5. Delete object ](./)
-
-### [6. DBStorage -  States and Cities ](./)
-
-### [7. DBStorage - User ](./)
-
-### [8. DBStorage - Place ](./)
-
-### [9. DBStorage - Review ](./)
 
 ---
 
@@ -129,7 +74,7 @@ Usage: show <class_name> <_id>
 (hbnb) show BaseModel 3aa5babc-efb6-4041-bfe9-3cc9727588f8
 [BaseModel] (3aa5babc-efb6-4041-bfe9-3cc9727588f8) {'id': '3aa5babc-efb6-4041-bfe9-3cc9727588f8', 'created_at': datetime.datetime(2020, 2, 18, 14, 21, 12, 96959), 
 'updated_at': datetime.datetime(2020, 2, 18, 14, 21, 12, 96971)}
-(hbnb)  
+(hbnb)
 ```
 ###### Example 2: Destroy an object
 Usage: destroy <class_name> <_id>
@@ -137,7 +82,7 @@ Usage: destroy <class_name> <_id>
 (hbnb) destroy BaseModel 3aa5babc-efb6-4041-bfe9-3cc9727588f8
 (hbnb) show BaseModel 3aa5babc-efb6-4041-bfe9-3cc9727588f8
 ** no instance found **
-(hbnb)   
+(hbnb)
 ```
 ###### Example 3: Update an object
 Usage: update <class_name> <_id>
