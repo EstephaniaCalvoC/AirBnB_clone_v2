@@ -46,7 +46,7 @@ sed -i "/listen 80 default_server/a rewrite ^/redirect_me $new_site permanent;" 
 sed -i "/listen 80 default_server/a add_header X-Served-By \"$HOSTNAME\";" $f_config
 
 # Add alias
-sed -i '/listen 80 default_server/a location /hbnb_static/ { alias /data/web_static/current/;}' $f_configt
+sed -i '/listen 80 default_server/a location /hbnb_static/ { alias /data/web_static/current/;}' $f_config
 
 service nginx restart
 
