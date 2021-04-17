@@ -83,9 +83,9 @@ def deploy():
 
 
 def do_clean(number=0):
-    n = int(number)
     """Delete out-of-date archives"""
 
+    n = int(number)
     keep_one = 'ls -t | tail -n +2 | xargs rm -rfv'
     keep_n = 'ls -t | tail -n +{} | xargs rm -rfv'
 
